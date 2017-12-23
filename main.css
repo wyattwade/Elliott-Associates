@@ -1,0 +1,117 @@
+﻿body, html {
+    height: 100%;
+    margin: 0;
+    font: 600 15px "Lato", sans-serif;
+}
+
+.bgimg-1 {
+    background-image: url('Images/los-angeles.jpg');
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 28%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+
+    .border {
+        /*background-color: #111;*/
+        color: black;
+        padding: 18px;
+        font-size: 38px;
+        font-family: 'Times New Roman';
+        letter-spacing: 5px;
+    }
+
+.caption-capital {
+    font-size:55px;
+}
+
+
+
+
+.nice-underline {
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+/*styles for image slider*/
+
+* {
+    box-sizing: border-box;
+}
+main-gallery {
+    font-family: "lato";
+    background: url('https://subtlepatterns.com/patterns/sativa.png');
+}
+
+/*.main-gallery {
+    background: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    border-top: solid 10px #7AA641;
+}*/
+
+.gallery-cell {
+    width: 100%;
+}
+
+.testimonial {
+    text-align: center;
+    max-width: 1050px;
+    margin: 75px auto 10px auto;
+    padding: 0 20px;
+}
+
+.testimonial-avatar {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.testimonial-quote {
+    font-style: italic;
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.testimonial-author {
+    display: block;
+    font-weight: 800;
+    color: #7AA641;
+}
+
+.flickity-page-dots {
+    bottom: 25px;
+}
+
+    .flickity-page-dots .dot.is-selected {
+        background: #7AA641;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
